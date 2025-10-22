@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do-List App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main-section">
+      <!-- Top Section -->
+      <div class="top-section">
+        <div class="left-top-section">
+          <div class="left-top-heading">
+            <h1>Today</h1>
+
+            <div class="top-subheading">
+              <p>6 Tasks</p>
+              <span class="material-symbols-outlined">
+                fiber_manual_record
+              </span>
+              <p>5 Active</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-top-section">
+          <button>
+            <span class="material-symbols-outlined"> add </span>
+            <p>Add New Task</p>
+          </button>
+        </div>
+      </div>
+
+      <!-- Bottom Section -->
+      <div class="bottom-section">
+        <div class="left-bottom-section">
+          <div class="first-left-section">
+            <div class="calender">
+              <p>14</p>
+              <p>Sept</p>
+            </div>
+
+            <div class="calender tomorrow">
+              <p>15</p>
+              <p>Sept</p>
+            </div>
+
+            <div class="calender tomorrow">
+              <p>16</p>
+              <p>Sept</p>
+            </div>
+
+            <div class="calender tomorrow">
+              <p>17</p>
+              <p>Sept</p>
+            </div>
+
+            <div class="calender tomorrow">
+              <p>18</p>
+              <p>Sept</p>
+            </div>
+
+            <div class="calender tomorrow">
+              <p>19</p>
+              <p>Sept</p>
+            </div>
+          </div>
+
+          <div class="second-left-section">
+            <div class="filter-container">
+              <span class="material-symbols-outlined"> filter_alt </span>
+              <p>Filter:</p>
+            </div>
+
+            <div class="all-container">
+              <p>All</p>
+            </div>
+
+            <div class="sub-all-container">
+              <div class="sub-all-link">
+                <span class="material-symbols-outlined"> lightbulb </span>
+                <p>Idea</p>
+              </div>
+
+              <div class="sub-all-link">
+                <span class="material-symbols-outlined"> restaurant </span>
+                <p>Food</p>
+              </div>
+
+              <div class="sub-all-link">
+                <span class="material-symbols-outlined"> work </span>
+                <p>Work</p>
+              </div>
+
+              <div class="sub-all-link">
+                <span class="material-symbols-outlined"> exercise </span>
+                <p>Sport</p>
+              </div>
+
+              <div class="sub-all-link">
+                <span class="material-symbols-outlined"> queue_music </span>
+                <p>Music</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="last-left-section">
+            <div class="last-left-header">
+              <div class="header-my-task">
+                <h2>My Tasks</h2>
+              </div>
+
+              <div class="header-texts">
+                <p>5 Tasks</p>
+                <p>1 Done</p>
+              </div>
+            </div>
+
+            <div class="last-left-section-cards">
+              <div class="last-left-section-card">
+                <div class="input-group-and-text">
+                  <div class="input-group">
+                    <input
+                      type="checkbox"
+                      name="task-schedule"
+                      id="task-schedule"
+                    />
+                    <label for="task-schedule">9:00 - 10:00</label>
+                  </div>
+
+                  <p>Sport</p>
+                </div>
+
+                <div class="card-texts">
+                  <p>Fitness</p>
+                  <p>Exercise and gym</p>
+                </div>
+              </div>
+
+              <div class="last-left-section-card">
+                <div class="input-group-and-text">
+                  <div class="input-group">
+                    <input
+                      type="checkbox"
+                      name="task-schedule"
+                      id="task-schedule"
+                    />
+                    <label for="task-schedule">10:00 - 11:00</label>
+                  </div>
+
+                  <p>Work</p>
+                </div>
+
+                <div class="card-texts">
+                  <p>Check Emails and respond</p>
+                  <p>Check, read and, and respond to emails</p>
+                </div>
+              </div>
+
+              <div class="last-left-section-card">
+                <div class="input-group-and-text">
+                  <div class="input-group">
+                    <input
+                      type="checkbox"
+                      name="task-schedule"
+                      id="task-schedule"
+                    />
+                    <label for="task-schedule">11:00 - 12:00</label>
+                  </div>
+
+                  <p>Work</p>
+                </div>
+
+                <div class="card-texts">
+                  <p>Work on Projects</p>
+                  <p>Focus on all the tasks needed to complete</p>
+                </div>
+              </div>
+
+              <div class="last-left-section-card done-card">
+                <div class="input-group-and-text">
+                  <div class="input-group">
+                    <input
+                      type="checkbox"
+                      name="task-schedule"
+                      id="task-schedule"
+                    />
+                    <label for="task-schedule">12:00 - 1:00</label>
+                  </div>
+
+                  <p>Work</p>
+                </div>
+
+                <div class="card-texts">
+                  <p>Attend Meeting</p>
+                  <p>Meeting with client and discussion</p>
+                </div>
+              </div>
+
+              <div class="last-left-section-card">
+                <div class="input-group-and-text">
+                  <div class="input-group">
+                    <input
+                      type="checkbox"
+                      name="task-schedule"
+                      id="task-schedule"
+                    />
+                    <label for="task-schedule">1:00 - 2:00</label>
+                  </div>
+
+                  <p>Work</p>
+                </div>
+
+                <div class="card-texts">
+                  <p>Work of XYZ</p>
+                  <p>Design forms and idea in XYZ</p>
+                </div>
+              </div>
+
+              <div class="last-left-section-card">
+                <div class="input-group-and-text">
+                  <div class="input-group">
+                    <input
+                      type="checkbox"
+                      name="task-schedule"
+                      id="task-schedule"
+                    />
+                    <label for="task-schedule">2:00 - 3:00</label>
+                  </div>
+
+                  <p>Food</p>
+                </div>
+
+                <div class="card-texts">
+                  <p>Lunch Break</p>
+                  <p>Enjoy a healthy lunch and take some rest</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-bottom-section">
+          <div class="tasks-categories-container">
+            <div class="categories-heading-and-icon">
+              <h2>Select Activity</h2>
+              <span class="material-symbols-outlined"> work </span>
+            </div>
+
+            <div class="tasks-categories-cards">
+              <div class="categories-card">
+                <div class="idea-container">
+                  <div class="idea-icon">
+                    <span class="material-symbols-outlined"> lightbulb </span>
+                  </div>
+
+                  <div class="idea-texts">
+                    <p>Idea</p>
+                    <p>0 Tasks</p>
+                  </div>
+                </div>
+
+                <div class="card-icon">
+                  <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                  </span>
+                </div>
+              </div>
+
+              <div class="categories-card">
+                <div class="idea-container">
+                  <div class="food-icon">
+                    <span class="material-symbols-outlined"> restaurant </span>
+                  </div>
+
+                  <div class="idea-texts">
+                    <p>Food</p>
+                    <p>Tasks</p>
+                  </div>
+                </div>
+
+                <div class="card-icon">
+                  <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                  </span>
+                </div>
+              </div>
+
+              <div class="categories-card">
+                <div class="idea-container">
+                  <div class="work-icon">
+                    <span class="material-symbols-outlined"> work </span>
+                  </div>
+
+                  <div class="idea-texts">
+                    <p>Work</p>
+                    <p>4 Tasks</p>
+                  </div>
+                </div>
+
+                <div class="card-icon">
+                  <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                  </span>
+                </div>
+              </div>
+
+              <div class="categories-card">
+                <div class="idea-container">
+                  <div class="sport-icon">
+                    <span class="material-symbols-outlined"> exercise </span>
+                  </div>
+
+                  <div class="idea-texts">
+                    <p>Sport</p>
+                    <p>1 Tasks</p>
+                  </div>
+                </div>
+
+                <div class="card-icon">
+                  <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                  </span>
+                </div>
+              </div>
+
+              <div class="categories-card">
+                <div class="idea-container">
+                  <div class="music-icon">
+                    <span class="material-symbols-outlined"> queue_music </span>
+                  </div>
+
+                  <div class="idea-texts">
+                    <p>Music</p>
+                    <p>0 Tasks</p>
+                  </div>
+                </div>
+
+                <div class="card-icon">
+                  <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tasks-progress">
+            <div class="progresss-heading">
+              <p>Today's Progress</p>
+            </div>
+
+            <div class="progress-score">
+              <p>Completed</p>
+              <p>1/6</p>
+            </div>
+
+            <div class="line-container">
+              <div class="half-line"></div>
+            </div>
+
+            <div class="progress-last-text">
+              <p>Keep going! 5 tasks remaining</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
