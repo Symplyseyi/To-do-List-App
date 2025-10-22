@@ -123,7 +123,7 @@
 }
 
 .top-subheading p {
-  font-size: 0.95rem;
+  font-size: var(--fontSize-small);
   color: var(--secBlackColor);
 }
 
@@ -203,7 +203,7 @@ button:focus {
   justify-content: space-between;
   align-items: start;
   background-color: var(--tertiaryColor);
-  padding: var(--space5);
+  padding: var(--space5) var(--space4);
   border-radius: var(--space4);
   box-shadow: 0 4px 32px rgba(0, 0, 0, 0.12);
   border: 1px solid var(--borderColor);
@@ -316,7 +316,7 @@ button:focus {
   justify-content: space-between;
   align-items: center;
   background-color: var(--tertiaryColor);
-  padding: var(--space5);
+  padding: var(--space5) var(--space4);
   column-gap: var(--space2);
   border-radius: var(--space4);
   border: 1px solid var(--borderColor);
@@ -441,7 +441,7 @@ button:focus {
   align-items: start;
   row-gap: var(--space3);
   background-color: var(--tertiaryColor);
-  padding: var(--space6);
+  padding: var(--space6) var(--space4);
   border: 1px solid var(--borderColor);
   border-radius: var(--space4);
   box-shadow: 0 4px 32px rgba(0, 0, 0, 0.12);
@@ -500,7 +500,7 @@ h2 {
   row-gap: var(--space2);
   border: 1px solid var(--borderColor);
   border-radius: var(--space4);
-  padding: var(--space4) var(--space5);
+  padding: var(--space5) var(--space2);
   border-left: 5px solid var(--sportIconColor);
   transition: all 0.3s ease;
   cursor: pointer;
@@ -608,7 +608,7 @@ label {
   row-gap: var(--space3);
   background-color: var(--tertiaryColor);
   border: 1px solid var(--borderColor);
-  padding: var(--space6);
+  padding: var(--space6) var(--space4);
   border-radius: var(--space4);
   box-shadow: 0 4px 32px rgba(0, 0, 0, 0.12);
 }
@@ -646,7 +646,7 @@ label {
   align-items: center;
   border: 1px solid var(--borderColor);
   border-radius: var(--space4);
-  padding: var(--space5) var(--space6);
+  padding: var(--space5) var(--space2);
   transition: all 0.3s ease;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -748,7 +748,7 @@ label {
   align-items: start;
   row-gap: var(--space3);
   background-color: var(--pryColor);
-  padding: var(--space6);
+  padding: var(--space6) var(--space4);
   padding-bottom: var(--space7);
   border-radius: var(--space4);
   box-shadow: 0 4px 32px rgba(0, 0, 0, 0.12);
@@ -824,7 +824,7 @@ label {
     justify-content: start;
     align-items: start;
     row-gap: var(--space3);
-    padding: var(--space8);
+    padding: var(--space8) var(--space6);
     background-color: var(--secColor);
   }
 
