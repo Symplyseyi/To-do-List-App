@@ -746,7 +746,7 @@ label {
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  row-gap: var(--space2);
+  row-gap: var(--space3);
   background-color: var(--pryColor);
   padding: var(--space6);
   padding-bottom: var(--space7);
